@@ -120,16 +120,19 @@ body {
 
 .main-program{
  
-    height: 91vh;
+    height: 100vh;
     background: url(./assets/main-page3.jpeg) no-repeat;
     background-color: grey;
     background-blend-mode: multiply;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
 }
 
 .main-program-h3{
-    transform: translate(107px, 5px);
-    width: 180px;
+   
     color: white 
 }
 
@@ -162,6 +165,14 @@ body {
     color:  #EC5242
 }
 
+.bold{
+    font-weight: bold;
+}
+
+.color-font{
+    color: #EC5242
+}
+
 .description-program{
     color: white
 }
@@ -172,7 +183,7 @@ body {
     background-color: #EC5242;
     padding: 5%;
     margin-inline: 5%;
-    transform: translate(0px, 69px);
+    transform: translate(0px, 18px);
 }
 
 
@@ -182,10 +193,14 @@ body {
 .speakers{
     background-color: white;
     height: 76vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .speakers-h3{   
-    width: 180px
+   
 }
 
 .wrapper-speakers{
@@ -201,6 +216,7 @@ body {
 .box-speakers{
    display: flex;
    gap: 3%;
+   margin: 2%;
 }
 
 .img-speaker{
@@ -222,7 +238,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    transform: translate(11px, 52px);
 }
 
 .p-toggle-more::after{
