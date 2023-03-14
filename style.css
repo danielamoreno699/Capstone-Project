@@ -68,9 +68,10 @@ body {
 }
 
 .hero{ 
-    background-image: url("./assets/colorfulart.png");
+    background-image: url("./assets/colorfulart.png")   ;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
+    
     height: 90vh;
     display: flex;
     margin:0%; 
@@ -124,7 +125,7 @@ body {
 
 .main-program{
  
-    height: 100vh;
+
     background: url(./assets/main-page3.jpeg) no-repeat;
     background-color: grey;
     background-blend-mode: multiply;
@@ -233,7 +234,6 @@ body {
 
 .speakers{
     background-color: white;
-    height: 76vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -273,7 +273,6 @@ body {
 .more-toggle{
     background-color: white;
     border-style: groove;
-    width: 88%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -286,3 +285,6 @@ body {
     margin-top: -2%;
    
 }
+.card-content.hidden {
+    display: none;
+  }

@@ -1,3 +1,10 @@
+//togle btn
+const openBtnMenu = () => {
+    
+}
+
+
+// displaying cards
 const cards = [
   {
     id: 0,
@@ -16,7 +23,7 @@ const cards = [
 
   },
   {
-    id:2,
+    id: 2,
     img: '',
     guestName: 'Yochai Bencher',
     professionalBackground: 'Berkman profesor of Enterpreneuial Legal Studies',
@@ -39,10 +46,27 @@ const cards = [
   },
 ];
 
-const displayCards = () => {
-    const containerCard = document.getElementById("cards-container");
-    containerCard.innerHTML = "";
+const cardContainer = document.getElementById('card-speakers');
+const displaycard = () => {
+  cards.forEach((detailCard) => {
+    const card = document.createElement('div');
+    card.classList = 'box-speakers';
 
-    
+    const cardContent = ` <div class="box-speakers">
+        <div class="img-container">
+            <img class="img-speaker" src=''>    
+        </div>
+        
+        <div class="text-desc-speaker">
+            <h3>${detailCard.guestName}</h3>
+            <h5 class="color-font">${detailCard.professionalBackground}</h5>
+            <p class="bold" > ${detailCard.shortResume}
+            </p>
+        </div>
+        </div>
+         `;
 
-}
+    cardContainer.innerHTML += cardContent;
+
+})};
+displaycard();
