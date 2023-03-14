@@ -63,23 +63,27 @@ body {
 }
 
 .main{
-    height: auto; 
+    height: auto;
+   
 }
 
 .hero{ 
-    background-image: url("./assets/background.png");
+    background-image: url("./assets/colorfulart.png");
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 46vh;
+    height: 90vh;
     display: flex;
-    margin:0%;   
+    margin:0%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
 }
 .content-txt{
     justify-content: center;
     align-items: center;
     width: 90%;
     height: fit-content;
-    transform: translate(6%, 11%);
 }
 
 .quote{

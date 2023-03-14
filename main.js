@@ -38,3 +38,11 @@ const cards = [
     shortResume: 'Benkler studies commons-based peer production and published his seminal book The Wealth of Networks in 2006',
   },
 ];
+
+const displayCards = () => {
+    const containerCard = document.getElementById("cards-container");
+    containerCard.innerHTML = "";
+
+    
+
+}
