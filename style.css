@@ -40,6 +40,7 @@ body {
 
 }
 
+
 .navbar{
     background-color:white;
     display: flex;
@@ -54,13 +55,10 @@ body {
     margin-top: 5%;
 }
 
-/*.navbar-ul{
-    display: none;
-    display: flex;
-    justify-content: flex-end;
-    gap:4%;
 
-}*/
+.navbar-ul-top img{
+    width: 2em;
+}
 
 /* menu layout */
 
@@ -179,6 +177,7 @@ body {
     background: url(./assets/main-page3.jpeg) no-repeat;
     background-color: grey;
     background-blend-mode: multiply;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -198,7 +197,6 @@ body {
     justify-content: center;
     margin: 3%;
     gap: 2rem;
-    margin-top: 4em;
  }
 
  
@@ -212,7 +210,7 @@ body {
 
 .topic{
     display: flex;
-    gap:9%; 
+    gap:6%; 
 }
 
 .topic-lecture{
@@ -231,7 +229,9 @@ body {
     color: white
 }
 
-
+.description-program p{
+    margin:8%;
+}
 
   .btn {
     padding: 5%;
@@ -295,7 +295,6 @@ body {
     width: 93%;
     justify-content: center;
     margin: 3%;
-    gap: 2rem;
     margin-top: 4em;
 
 }
@@ -311,10 +310,18 @@ body {
 }
 
 .img-container{
-    width:50%;
+   
     display: flex;
-    justify-content: center;
     align-items: center;
+}
+
+.desc-speaker-h3{
+    -webkit-text-stroke: 1px ;
+    margin:2%
+}
+
+.descrip-h5{
+    margin:0%
 }
 
 .more-toggle{
@@ -429,7 +436,8 @@ body {
     #cards-container{
         display: flex;
         flex-direction: row;
-        gap:0
+        gap:0;
+        width: 75%;
     }
 
     .box-program {
@@ -459,8 +467,17 @@ body {
     }
 
     .btn{
-        padding: 3% 12%;
+        /*padding: 3% 12%;*/
+        display: none;
     }
+
+    .box-program-h3{
+        display: flex;
+        color:white;
+        font-size: 24px;
+    }
+
+
 
     .more-toggle{
         display: none;
@@ -470,15 +487,16 @@ body {
     #card-speakers{
         display:grid;
         grid-template-columns: auto auto;
+    
     }
 
     .box-speakers{
         margin: 1%;
     }
 
-    .img-container{
+    /*.img-container{
         width:41%;
-    }
+    }*/
 
     .img-speaker{
         width: 12em;
@@ -550,4 +568,11 @@ body {
  
 
    
+}
+
+@media (min-width: 1440px){
+    #card-speakers{
+        width:76%
+    }
+
 }
