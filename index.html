@@ -8,28 +8,69 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,700&family=Zilla+Slab:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
 
         <header class="header">
-            <div class="navbar">
-             <img class="menu-icon" src="./assets/icons8-menu-50.png" alt="">
+      
+             <img class="menu-icon" src="./assets/icons8-menu-50.png" alt="" onclick="openBtnMenu()">
                 
-
-                <ul class="navbar-ul display-none">
-                    <li class="navbar-li">lorem</li>
-                    <li class="navbar-li">lorem</li>
-                    <li class="navbar-li">lorem</li>
+            <nav class="desktop-menu display-none">
+               
+                    <ul class="navbar-ul-top ">
+                        <img src="./assets/twitter.png" alt="twitter">
+                        <img src="./assets/facebook.png" alt="facebook">
+                        <li class="navbar-li-top"><a href="#home">Home</a></li>
+                        <li class="navbar-li-top"><a href="#about">About</a></li>
+                        <li class="navbar-li-top"><a href="#about">About</a></li>
+                        
+                    </ul>
+                
+              
+                <ul class="navbar-ul-bottom">
                     
+
+                    <div class="navbar-bottom-container">
+
+
+                        <img class="img-nav-bottom" src="./assets/payoneer.png" alt="logo">
+                    <li class="navbar-li-bottom"> About</li>
+                    <li  class="navbar-li-bottom"> Program</li>
+                    <li  class="navbar-li-bottom">Join</li>
+                    <li  class="navbar-li-bottom">Sponsor</li>
+                    <li  class="navbar-li-bottom">News</li>
+                    <li  class="navbar-li-bottom">CC Campaign</li>
+
+                </div>
+
                 </ul>
-            </div>
+            </nav>
+
+            <!--layout menu-->
+                <nav class="mobile-menu-layout" id="mobile-menu-layout">
+                    <button class="close-btn-mobile" id="close-btn-mobile" onclick="closeBtnMenu()">&times;</button>
+                    
+                    
+                    <ul class="ul-menu-link">
+                      <li><a class="menu-link" href="#home">Home</a></li>
+                      <hr>
+                      <li><a class="menu-link" href="#about">About</a></li>
+                    </ul>
+                </nav>
+          <!---->
 
         </header>
 
         <main class="main">
 
-            <section class="hero">
+            <section class="hero" id="home">
                 <div class="content-txt">
                     <q class="quote">Build a future where people live in harmony with nature.</q>
                     <h1 class="event-headline mask">creative commons global summit 2015</h1>
@@ -43,14 +84,14 @@
             </section>
 
 
-            <section class="main-program">
+            <section class="main-program" id="about">
                 <h3 class="main-program-h3">Main Program</h3>
                 
                 
                 <div class="wrapper-program" id="cards-container">
                     <div class="box-program">
                         <div class="topic">
-                            <img class="img-topic"src="./assets/icons8-physical-gallery-50.png" alt="img-topic">
+                            <img class="img-topic" src="./assets/icons8-physical-gallery-50.png" alt="img-topic">
                             <h3 class="topic-lecture">lecture</h3>
                         </div>
                         <div class="description-program">
@@ -106,6 +147,8 @@
 
                 <div class="wrapper-speakers"  id="card-speakers">
 
+                </div>
+
                 <button class="more-toggle" id="btn-toggle">
                     <p  class="p-toggle-more">MORE</p>
                 </button>
@@ -116,7 +159,33 @@
             
         </main>
 
-        <footer>
+        <footer class="footer display-none">
+            <div class="sponsors">
+                <h3 class="sponsors-h3">partners</h3>
+                <hr >
+                <ul class="sponsor-companies-ul">
+                    <li class="sponsors-company-li mozilla" >Mozilla</li>
+                    <li class="sponsors-company-li google"><img src="./assets/google.svg" alt=""></li>
+                    <li class="sponsors-company-li naver" >Naver</li>
+                    <li class="sponsors-company-li airbnb"><img src="./assets/airbnb.svg" alt=""></li>
+                </ul>
+
+            </div>
+            <div class="copyright">
+
+
+                <img class="copyright-img" src="./assets/expologo-copyright.png" alt="">
+
+                <div class="text-copyright">
+                    <p class="bold">Copyright<i class="fa fa-copyright" aria-hidden="true"></i> 1995-2023 Inc. All rights reserved</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore dignissimos odio cupiditate fuga ex non nesciunt consequuntur in quam repellendus?</p>
+
+                </div>
+                
+
+
+
+            </div>
 
         </footer>
 

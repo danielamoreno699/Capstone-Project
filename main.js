@@ -1,8 +1,30 @@
-//togle btn
+// toggle btn
+const link = document.getElementsByClassName('menu-link');
+const mobileMenuLayout = document.getElementById('mobile-menu-layout');
 const openBtnMenu = () => {
-    
-}
+  mobileMenuLayout.classList.add('active');
+  document.body.classList.add('noScroll');
+};
 
+openBtnMenu();
+
+const closeBtnMenu = () => {
+  mobileMenuLayout.classList.remove('active');
+  document.body.classList.remove('noScroll');
+};
+
+closeBtnMenu();
+
+const RemoveActiveMenuLink = () => {
+  Array.from(link).forEach((el) => {
+    el.addEventListener('click', () => {
+      mobileMenuLayout.classList.remove('active');
+      document.body.classList.remove('noScroll');
+    });
+  });
+};
+
+RemoveActiveMenuLink();
 
 // displaying cards
 const cards = [
