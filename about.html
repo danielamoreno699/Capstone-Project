@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Page</title>
+    <link rel="stylesheet" href="about.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,700&family=Zilla+Slab:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+      
+        <img class="menu-icon" src="./assets/icons8-menu-50.png" alt="" onclick="openBtnMenu()">
+           
+       <nav class="desktop-menu display-none">
+          
+               <ul class="navbar-ul-top ">
+                   <img src="./assets/twitter2.png" alt="twitter">
+                   <img src="./assets/face2.png" alt="facebook">
+                   <li class="navbar-li-top"><a href="#home">Home</a></li>
+                   <li class="navbar-li-top"><a href="#about">About</a></li>
+                   <li class="navbar-li-top"><a href="#contact">Contact</a></li>
+                   
+               </ul>
+           
+         
+           <ul class="navbar-ul-bottom">
+               
+
+               <div class="navbar-bottom-container">
+
+
+                   <img class="img-nav-bottom" src="./assets/payoneer.png" alt="logo">
+               <li class="navbar-li-bottom"> About</li>
+               <li  class="navbar-li-bottom"> Program</li>
+               <li  class="navbar-li-bottom">Join</li>
+               <li  class="navbar-li-bottom">Sponsor</li>
+               <li  class="navbar-li-bottom">News</li>
+               <li  class="navbar-li-bottom">CC Campaign</li>
+
+           </div>
+
+           </ul>
+       </nav>
+
+       <!--layout menu-->
+           <nav class="mobile-menu-layout" id="mobile-menu-layout">
+               <button class="close-btn-mobile" id="close-btn-mobile" onclick="closeBtnMenu()">&times;</button>
+               
+               
+               <ul class="ul-menu-link">
+                 <li><a class="menu-link" href="#home">Home</a></li>
+                 <hr>
+                 <li><a class="menu-link" href="#about">About</a></li>
+               </ul>
+           </nav>
+     <!---->
+
+   </header>
+
+   <main class="main">
+    <section class="hero" id="home">
+        <div class="content-txt">
+             <p class="q-par"><q class="quote">Build a future where people live in harmony with nature.</q></p>
+            <h1 class="event-headline mask">creative commons global summit 2015</h1>
+            <div class="container-desc">
+                <p class="event-description">a joyful celebration believing in the value of opennes and sharing, creating a positive change with people from 80 countries is taking place in october, in Korea</p>
+            </div>
+           
+            <h4 class="hero-h4">Please contact us per Email for any further questions about CC Global Summit 2015</h4>
+            <p class="event-description-address ">ccsummit2015@cckorea.org </p>    
+        </div>
+    </section>
+
+    <section class="content">
+        <h2 class="content-h2 align-content">Creative Commons Global Summit 2015 Logo</h2>
+        <hr class="w20">
+        <p class="content-p">The logo of CC Global Summit 2015 was decided through the logo competition from 8.June to 7 .July</p>
+        <div class="logo-container">
+            <img class="content-img-logo" src="./assets/cc-global.png" alt="">
+        </div>
+        <hr class="mt">
+        <h2 class="content-h2 mt-10"> See the past CC Global Summits</h2>
+        <hr class="w20">
+        <p class="content-p">Take a look of the last two weeks CC Global Summits which took place in Buenos Aires and in Warsaw</p>
+        <div class="img-container">
+            <div class="img-container-first">
+                <div class="container-text">
+                    <h3>2013</h3>
+                    <p>CC Global Summit 2013 in Buenos Aires</p>
+                </div>
+            
+               
+            </div>
+            <div class="img-container-second">
+                <div class="container-text">
+                    <h3>2011</h3>
+                    <p>CC Global Summit 2011 in Warsaw</p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+   </main>
+
+   <footer class="footer display-none">
+    <div class="sponsors">
+        <h3 class="sponsors-h3">partners</h3>
+        <hr >
+        <ul class="sponsor-companies-ul">
+            <li class="sponsors-company-li mozilla" >Mozilla</li>
+            <li class="sponsors-company-li google"><img src="./assets/google.svg" alt=""></li>
+            <li class="sponsors-company-li naver" >Naver</li>
+            <li class="sponsors-company-li airbnb"><img src="./assets/airbnb.svg" alt=""></li>
+        </ul>
+
+    </div>
+    <div class="copyright">
+
+
+        <img class="copyright-img" src="./assets/expologo-copyright.png" alt="">
+
+        <div class="text-copyright">
+            <p class="bold">Copyright<i class="fa fa-copyright" aria-hidden="true"></i> 1995-2023 Inc. All rights reserved</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore dignissimos odio cupiditate fuga ex non nesciunt consequuntur in quam repellendus?</p>
+
+        </div>
+    </div>
+
+</footer>
+    <script src="./main.js"></script>
+</body>
+</html>
