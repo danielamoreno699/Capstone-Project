@@ -107,9 +107,6 @@ You can deploy this project using: https://danielamoreno699.github.io/Capstone-P
 
 hosting services of your choice.
 
-informative video: https://www.loom.com/share/20f9ea27b8da4104acf74943cbc11b7b
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
  AUTHORS 
@@ -138,9 +135,9 @@ informative video: https://www.loom.com/share/20f9ea27b8da4104acf74943cbc11b7b
  ACKNOWLEDGEMENTS 
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-- I want to thank to Cindy Shin who provided the figma design of the template 
+- I want to thank <a href="https://www.behance.net/adagio07">Cindy Shin<a> the <a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015"> author of the original design </a>, who provided the behance design of the template
 
--Also, I would like to thank to Alejandro who tough me  how to write good code on css and also, Marco who was always supportive. 
+-Also, I would like to thank to Alejandro who tough me  how to write good code on css. 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
  LICENSE 
