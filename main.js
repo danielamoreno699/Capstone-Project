@@ -1,6 +1,7 @@
 // toggle btn
 const link = document.getElementsByClassName('menu-link');
 const mobileMenuLayout = document.getElementById('mobile-menu-layout');
+
 const openBtnMenu = () => {
   mobileMenuLayout.classList.add('active');
   document.body.classList.add('noScroll');
@@ -75,9 +76,13 @@ const cards = [
   },
 ];
 
+
+
+
 const cardContainer = document.getElementById('card-speakers');
+
 const displaycard = () => {
-  cards.forEach((detailCard) => {
+  cards.forEach((detailCard, idx) => {
     const card = document.createElement('div');
     card.classList = 'box-speakers';
 
@@ -96,6 +101,7 @@ const displaycard = () => {
          `;
 
     cardContainer.innerHTML += cardContent;
+  });
+};
 
-})};
 displaycard();

@@ -35,8 +35,6 @@
       top:0;
       background-color: white;
       height: 10vh;
-    
-  
   }
   
   
@@ -58,6 +56,13 @@
   .navbar-ul-top img{
       width: 2em;
   }
+
+  .black-color{
+    color: #272a31;
+  }
+
+
+
   
   /* menu layout */
   
@@ -88,15 +93,23 @@
       left: 0;
       position: absolute;
       background-color: #272a31;
-  
+      transform: translate3d(-100vw, 0, 0);
+      transition: transform .3s cubic-bezier(0, .52, 0, 1);
+     
     
      
   }
   
   .mobile-menu-layout.active{
       display: flex;
-      z-index: 1;  
-  
+      z-index: 1; 
+      transform: translate3d(0vw, 0, 0);
+  }
+
+ 
+
+  .menu-link:hover {
+    background-color: #f0f0f0;
   }
   
   .close-btn-mobile{
@@ -115,12 +128,13 @@
   
   /* hero */
   
-  .hero{   
-      background-image: url("./assets/background.png")  ;
+  .hero{  
+        /*background-color: #d3d3d3 !important*/
+      background-image: url("./assets/backart3.jpg"); 
+      background-color: #dacfcf82;
+      background-blend-mode: multiply;
       background-repeat: no-repeat;
       background-size: cover;
-      background-color: #d3d3d3;
-  
       height: 70vh;
       display: flex;
       margin:0%; 
@@ -150,7 +164,8 @@
   
   .event-headline{
       margin-top: 0;
-      -webkit-text-stroke: 1px;
+      font-size: 36px;
+      -webkit-text-stroke: 2px;
       color: #EC5242;
       text-align: center;
       
@@ -170,11 +185,21 @@
       padding: 1em 1em;
       border-style: groove;
       background-color: white;
+
+     /* white-space: nowrap;
+         overflow: hidden;
+        text-overflow: ellipsis;*/
+         
+  }
+
+  .event-description-mobile{
+    width:96%;
+      text-align: center;
   }
   
   .event-description{  
-      width:96%;
-      text-align: center;
+     display: none;
+      
   }
   
   .event-description-address{
@@ -194,8 +219,13 @@
     width:20%
 }
 
+    .main{
+        background-color: #fff;
+    }
+
   .content{
-    margin: 8%;
+    margin: 6%;
+    background-color: #fff;
   }
   .content-h2{
     text-align: center;
@@ -219,6 +249,10 @@
     margin-top: 15%;
   }
 
+  .bold{
+    font-weight: bold;
+  }
+
   .mt-10{
     margin-top: 10%;
   }
@@ -238,7 +272,7 @@
     background-image: linear-gradient(
         rgba(238, 74, 24, 0.5), 
         rgba(238, 0, 0, 0.5)
-      ),url('./assets/community1.jpg');
+      ),url('./assets/art1.jpg');
       background-repeat: no-repeat;
       background-size: cover;
     width: 100%;
@@ -313,7 +347,7 @@ hr{
 }
 
 .copyright-img{
-    width: 6em;
+    width: 4em;
 }
 
 .sponsors-company-li img{
@@ -335,6 +369,29 @@ hr{
 .mask{
     line-height: 57px;
 }
+
+.hr-long{
+    width: 100%;
+}
+
+/* effects */
+
+
+  
+  .navbar-li-bottom a:before {
+    text-decoration:none;
+    border-bottom: 2px solid #ef8b80;
+    box-shadow: inset 0 -4px 0 #ef8b80;
+    color: inherit;
+    transition: background 0.1s cubic-bezier(.33,.66,.66,1);
+  }
+  
+  .navbar-li-bottom a:hover {
+    background: #ef8b80;
+  }
+
+
+/* media queries */
 
   @media (min-width: 768px){
 
@@ -406,9 +463,66 @@ hr{
 
     /* content */
 
+    .hero{
+        height: 100vh;
+    }
+
+    .content-txt{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
     .content-p{
         margin: 23px;
         font-size: 23px;
+    }
+
+    .q-par{
+        font-size: 30px;
+    }
+
+    .event-headline{
+        font-size: 47px;
+    }
+
+    .container-desc{
+        width: 70%;
+        padding: 4em 5em;
+        white-space:normal;
+        display: flex;
+        justify-content: center;
+    }
+
+    .event-description-mobile{
+        display: none;
+    }
+
+
+    .event-description{
+        display: flex;
+        font-size: 24px;
+        width:96%;
+        text-align: center;
+        
+    }
+
+    .logo-container{
+     
+        display: flex;
+        justify-content: center;
+        /*padding: 1em 17em;*/
+    }
+
+    .hero-h4{
+        font-size: 23px;
+    }
+    .event-description-address{
+        font-size: 25px;
+    }
+
+    .main-txt-container{
+        margin: 5em;
     }
 
     /* footer*/
@@ -476,6 +590,43 @@ hr{
     .mask{
         line-height: 57px;
     }
- 
 
+
+    .img-container{
+        flex-direction: row;
+        height: 19em;
+    }
+
+
+    .copyright{
+        color: black;
+        background-color: #fff;
+    }
+
+   
+    /*.copyright{
+        background-color: #272a31;
+        color:white;
+        opacity: 0.8
+    }*/
+  }
+
+  @media (min-width: 1440px){
+
+
+
+        .img-container{
+            height: 40em;
+        }
+
+        .copyright-img{
+            width: 19em;
+        }
+
+        .sponsors-company-li img{
+            width: 13em;
+        }
+        .main-txt-container{
+            margin: 8em;
+        }
   }
