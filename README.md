@@ -148,6 +148,7 @@ informative video: https://www.loom.com/share/20f9ea27b8da4104acf74943cbc11b7b
 
 - GitHub: [@daniela](https://github.com/danielamoreno699)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/daniela-moreno-06a139124/)
+- twitter : [twitter](@Daniela38932450)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
