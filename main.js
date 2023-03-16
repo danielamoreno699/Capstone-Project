@@ -31,7 +31,7 @@ RemoveActiveMenuLink();
 const cards = [
   {
     id: 0,
-    img: 'assets/person2.jpg',
+    img: 'assets/Yochai.png',
     guestName: 'Yochai Bencher',
     professionalBackground: 'Berkman professor of Enterpreneurial Legal Studies at Harvard Law School',
     shortResume: 'Benkler studies commons-based peer production, and published his seminal book The Wealth of Networks in 2006.',
@@ -39,7 +39,7 @@ const cards = [
   },
   {
     id: 1,
-    img: 'assets/person3.jpg',
+    img: 'assets/SohYeong.png',
     guestName: 'SohYeong Noh',
     professionalBackground: 'Director of Art Centre Nabi and a board member of CC Korea',
     shortResume: 'As the main venue for media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts',
@@ -47,7 +47,7 @@ const cards = [
   },
   {
     id: 2,
-    img: 'assets/person1.jpeg',
+    img: 'assets/Lila.png',
     guestName: 'Lila Tretikov',
     professionalBackground: 'Executive Director of the Wikimedia Foundation',
     shortResume: 'Lila Tretikov is the Executive Director of the Wikimedia Foundation, the nonprofit organization that operates Wikipedia. Wikipedia is freely available in 290 languages and used by nearly half a billion people around the world every month',
@@ -55,21 +55,21 @@ const cards = [
   },
   {
     id: 3,
-    img: 'assets/person6.jpg',
+    img: 'assets/Kilnam.png',
     guestName: 'Kilnam Chon',
     professionalBackground: '',
     shortResume: 'Kilnam Chon Helped bring the internet to Asia and is an outspoken advocate for the open web and digital commons. In 2012 he was inducted into the inaugural class of the internet Society (ISOC) Internet Hall of Fame. ',
   },
   {
     id: 4,
-    img: 'assets/person4.jpg',
+    img: 'assets/Julia.png',
     guestName: 'Julia Leda',
     professionalBackground: 'President of Young Pirates of Europe',
     shortResume: 'European integration, political democracy and participation of the youth through online as her major condem, Redas report outlining potential changes to the EU copyright law was approved by the Parliament in July',
   },
   {
     id: 5,
-    img: 'assets/person5.jpg',
+    img: 'assets/Ryan.png',
     guestName: 'Ryan Merkley',
     professionalBackground: 'CEO of Creative Commons, ex CCO of the Mozilla Foundation',
     shortResume: 'Ryan had been leading open-source projects at the mozilla Foundation such as the open source movement',

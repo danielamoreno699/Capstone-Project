@@ -28,6 +28,18 @@ body {
   flex-direction: column;
 }
 
+.hr-style {
+  height: 1px;
+  background-color: #ec5242;
+  width: 10%;
+}
+
+.hr-style-w5 {
+  height: 1px;
+  background-color: #ec5242;
+  width: 5%;
+}
+
 .bold {
   font-weight: bold;
 }
@@ -151,22 +163,15 @@ body {
 
 .container-desc {
   padding: 0 1em;
-  border-style: groove;
-}
-
-.event-description {
-  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
-}
-
-.event-description-address {
-  font-weight: bold;
+  border-style: solid;
+  border-color: white;
 }
 
 /* section main program */
 
 .main-program {
   background: url(./assets/main-page3.jpeg) no-repeat;
-  background-color: #f6f1f182;
+  background-color: #272a31;
   background-blend-mode: multiply;
   background-size: cover;
   display: flex;
@@ -176,7 +181,7 @@ body {
 }
 
 .main-program-h3 {
-  color: black;
+  color: white;
 }
 
 .wrapper-program {
@@ -364,10 +369,16 @@ body {
     background-color: #272a31;
     align-items: center;
     color: white;
-    justify-content: center;
-    gap: 2%;
-    margin: 0;
+    justify-content: end;
     height: 35%;
+    margin: 0;
+  }
+
+  .navbar-top-container {
+    display: flex;
+    justify-content: end;
+    margin: 4%;
+    gap: 17%;
   }
 
   .navbar-li-top a {
@@ -405,7 +416,8 @@ body {
   }
 
   .container-desc {
-    font-size: 36px;
+    width: 55%;
+    font-size: 17px;
     font-weight: 800;
   }
 
@@ -423,6 +435,11 @@ body {
     display: flex;
     flex-direction: column;
     padding: 2% 1%;
+  }
+
+  .box-program:hover {
+    /* background: #e1e1e1; */
+    border: 2px solid #ec5242;
   }
 
   .topic {
@@ -446,9 +463,8 @@ body {
 
   .box-program-h3 {
     display: flex;
-    color: black;
+    color: white;
     font-size: 24px;
-    -webkit-text-stroke: 2px;
   }
 
   .more-toggle {
@@ -479,6 +495,7 @@ body {
   }
 
   .sponsors {
+    padding: 2%;
     display: flex;
     flex-direction: column;
     background-color: #272a31;
@@ -491,18 +508,14 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 32px;
-  }
-
-  hr {
-    width: 20%;
-    color: #ec5242;
+    margin: 1%;
   }
 
   .sponsor-companies-ul {
     display: flex;
     justify-content: center;
     gap: 4%;
-    padding: 0%;
+    padding: 2%;
   }
 
   .copyright {
@@ -511,6 +524,7 @@ body {
     grid-template-columns: 30% 60%;
     justify-content: center;
     align-items: center;
+    padding: 2%;
   }
 
   .copyright-img {

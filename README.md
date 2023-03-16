@@ -1,40 +1,11 @@
-<a name="readme-top"></a>
-
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
 
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
+ 
   <h3><b>Microverse README Template</b></h3>
 
 </div>
 
-<!-- TABLE OF CONTENTS -->
+ TABLE OF CONTENTS 
 
 # 📗 Table of Contents
 
@@ -58,7 +29,8 @@ After you're finished please remove all the comments and instructions!
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
+
+ PROJECT DESCRIPTION 
 
 # 📖 [CAPSTONE WEBSITE PROJECT] <a name="about-project"></a>
 
@@ -135,9 +107,6 @@ You can deploy this project using: https://danielamoreno699.github.io/Capstone-P
 
 hosting services of your choice.
 
-informative video: https://www.loom.com/share/20f9ea27b8da4104acf74943cbc11b7b
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
  AUTHORS 
@@ -148,6 +117,8 @@ informative video: https://www.loom.com/share/20f9ea27b8da4104acf74943cbc11b7b
 
 - GitHub: [@daniela](https://github.com/danielamoreno699)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/daniela-moreno-06a139124/)
+- twitter : [twitter](@Daniela38932450)
+ informative video: https://www.loom.com/share/20f9ea27b8da4104acf74943cbc11b7b
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -164,16 +135,16 @@ informative video: https://www.loom.com/share/20f9ea27b8da4104acf74943cbc11b7b
  ACKNOWLEDGEMENTS 
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
+- I want to thank <a href="https://www.behance.net/adagio07">Cindy Shin<a> the <a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015"> author of the original design </a>, who provided the behance design of the template
 
-I would like to thank to Alejandro who tough me  how to write good code on css and also, Marco who was always supportive
-
+-Also, I would like to thank to Alejandro who tough me  how to write good code on css. 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
  LICENSE 
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./LICENSE.md) licensed.
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
