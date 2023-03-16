@@ -327,7 +327,8 @@ hr {
 }
 
 .copyright-img {
-  width: 4em;
+    width: 7em;
+    background-color: black;
 }
 
 .sponsors-company-li img {
