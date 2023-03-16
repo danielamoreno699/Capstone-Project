@@ -58,9 +58,6 @@ body {
   color: #272a31;
 }
 
-
-
-
 /* menu layout */
 
 .ul-menu-link {
@@ -360,7 +357,6 @@ hr {
 .navbar-li-bottom a:hover {
   background: #ef8b80;
 }
-
 
 /* media queries */
 
