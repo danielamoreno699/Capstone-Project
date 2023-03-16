@@ -31,6 +31,12 @@ body {
   display: none;
 }
 
+.hr-style {
+  height: 1px;
+  background-color: #ec5242;
+  width: 5%;
+}
+
 .header {
   top: 0;
   background-color: white;
@@ -384,10 +390,16 @@ hr {
     background-color: #272a31;
     align-items: center;
     color: white;
-    justify-content: center;
-    gap: 2%;
-    margin: 0;
+    justify-content: end;
     height: 35%;
+    margin: 0;
+  }
+
+  .navbar-top-container {
+    display: flex;
+    justify-content: end;
+    margin: 4%;
+    gap: 17%;
   }
 
   .navbar-li-top a {
@@ -482,36 +494,13 @@ hr {
   }
 
   .sponsors {
-    display: flex;
-    flex-direction: column;
-    background-color: #272a31;
-    color: white;
-    opacity: 0.8;
-  }
-
-  .sponsors-h3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 32px;
-  }
-
-  hr {
-    width: 20%;
-    color: #ec5242;
-  }
-
-  .sponsor-companies-ul {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    gap: 4%;
-    padding: 0%;
+    display: none;
   }
 
   .copyright {
-    color: black;
-    background-color: #fff;
+    padding: 2%;
+    color: white;
+    background-color: #272a31;
     display: grid;
     grid-template-columns: 30% 60%;
     justify-content: center;
@@ -519,7 +508,7 @@ hr {
   }
 
   .copyright-img {
-    width: 14em;
+    width: 10em;
   }
 
   .sponsors-company-li img {
