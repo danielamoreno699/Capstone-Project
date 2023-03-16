@@ -76,13 +76,10 @@ const cards = [
   },
 ];
 
-
-
-
 const cardContainer = document.getElementById('card-speakers');
 
 const displaycard = () => {
-  cards.forEach((detailCard, idx) => {
+  cards.forEach((detailCard) => {
     const card = document.createElement('div');
     card.classList = 'box-speakers';
 
